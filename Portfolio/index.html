@@ -29,6 +29,7 @@
             line-height: 1.6;
             color: var(--text-color);
             overflow-x: hidden;
+            user-select: none;
         }
 
         h1, h2, h3, h4 {
@@ -703,11 +704,15 @@
                 <p>I'm a passionate and driven Computer Science student based in Bangalore. My journey is a unique blend of practical, industry-focused training from Scaler School of Technology and a strong theoretical foundation from my Bachelor's degree at IIT Madras.</p>
                 <p> My core skills are in front-end development (HTML, CSS, JavaScript) and object-oriented programming with Java. I love building clean, responsive web interfaces and am eager to apply my skills to solve real-world problems.</p>
                 <p>Outside of coding, I enjoy learning about emerging tech, reading, and occasionally playing chess.</p>
+ 
                 <h3 style="margin-top: 2rem; margin-bottom: 1rem;">My Skills</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <h4>HTML5</h4>
                         <p>Advanced</p>
                     </div>
                     <div class="skill-item">
-                        <h4>CSS</h4>
+                        <h4>CSS3</h4>
                         <p>Advanced</p>
                     </div>
                     <div class="skill-item">
@@ -718,6 +723,8 @@
                         <h4>Java</h4>
                         <p>Intermediate</p>
                     </div>
+  
+                    </div>
                 </div>
             </div>
         </div>
@@ -727,6 +734,7 @@
     <section id="projects">
         <h2 class="section-title">My Projects</h2>
         <div class="projects-grid">
+
             <div class="project-card">
                 <div class="project-image">📖</div>
                 <div class="project-content">
@@ -757,12 +765,31 @@
                         
                     </div>
                     <div class="project-links">
-                        <a href="https://markweather.netlify.app/" target="_blank">View Demo →</a>
-                       
-                        
+                        <a href="https://markweather.netlify.app/" target="_blank">View Demo →</a>                   
                     </div>
                 </div>
             </div>
+
+
+                 <div class="project-card">
+                <div class="project-image">📰</div>
+                <div class="project-content">
+                    <h3>News Aggregator</h3>
+                    <p>Real-time news application that delivers the latest headlines and trending stories from multiple categories. Clean interface with category filters and search functionality for easy browsing.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JS</span>
+                        <span class="tech-tag">API Integration</span>
+                        
+                    </div>
+                    <div class="project-links">
+                        <a href="https://newssfinder.netlify.app/" target="_blank">View Demo →</a>                   
+                    </div>
+                </div>
+            </div>
+
+
     </section>
 
     <!-- Contact Section -->
@@ -845,7 +872,7 @@
                 <img src="https://cdn4.iconfinder.com/data/icons/buno-email/32/__email_address_contact-128.png" alt="Email">
             </a>
         </div>
-        <p>&copy; 2025 Markandray Rathod. All rights reserved. Built with ❤️ </p>
+        <p>&copy; Copyright 2025. All rights reserved.</p>
     </footer>
 </body>
 </html>
